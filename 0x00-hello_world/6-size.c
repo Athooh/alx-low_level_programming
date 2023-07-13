@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 /**
   *main - program prints the size of c data types
   *Return: returns 0
