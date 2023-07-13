@@ -1,5 +1,6 @@
 /*printing a my first sentence*/
 #include <stdio.h>
+/*beginning of the main function*/
 int main(void)
 {
 	/*print the string*/
