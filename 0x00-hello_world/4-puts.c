@@ -1,9 +1,11 @@
 /*printing a my first sentence*/
 #include <stdio.h>
-/*beginning of the main function*/
+/**
+  * main: prints a string
+  * Return: This returns 0
+ */
 int main(void)
 {
-	/*print the string*/
-	puts("\"Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");/*print the string*/
 	return (0);
 }
