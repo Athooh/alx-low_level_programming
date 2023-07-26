@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main - write the code here
+ * Return: 0 if succesful
+ */
 
 int main(void)
 {

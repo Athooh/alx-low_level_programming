@@ -2,6 +2,7 @@
 
 /**
  * print_number - print numbers chars
+ * _putchar - writes the characters in brackets
  * @n: integer params
  * Return: 0
  */
