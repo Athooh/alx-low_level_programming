@@ -35,6 +35,7 @@ int check_num(char *str)
  * Return: Always 0 (Success)
  */
 
+int main(int argc, char *argv[])
 {
 	/*Declaring variables*/
 	int count;
@@ -46,7 +47,7 @@ int check_num(char *str)
 	{
 		if (check_num(argv[count]))
 		{
-			str_to_int = atoi(atoi[count]);
+			str_to_int = atoi(argv[count]);
 			sum += str_to_int;
 		}
 		else
