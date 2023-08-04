@@ -3,11 +3,12 @@
 /**
  * _puts - prints a string, followed by a new line, to stdout
  * @str: string to print
+ * _putchar: prints a new line
  */
 
 void _puts(char *str)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	
-	return (0);
+	while (*str)
+		_putchar(*str++);
+	_putchar('\n');
 }
