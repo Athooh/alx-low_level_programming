@@ -9,7 +9,7 @@
  * Return: returns the pointer of the newly allocated memory block
  */
 
-void *_realloc(void *ptr, unsigned int new_size, unsigned int old_size)
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	char *ptr1;
 	char *old_ptr;

@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * *string_noncat - it adds n bytes of a string to another string
+ * *string_nconcat - it adds n bytes of a string to another string
  * @x1: the string to append to
  * @x2: the string to add from
  * @i: the number of bytes from x1 to add to x2

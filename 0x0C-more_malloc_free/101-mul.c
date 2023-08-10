@@ -46,7 +46,7 @@ int _strlen(char *s)
 
 void errors(void)
 {
-	printf("Errors\n");
+	printf("Error\n");
 	exit(98);
 }
 
@@ -77,7 +77,7 @@ int main(int argc, char *argv[])
 	{
 		digit1 = s1[len1] - '0';
 		carry = 0;
-		for (len1 = _strlen(s2) - 1; len2 >= 0; len2--)
+		for (len2 = _strlen(s2) - 1; len2 >= 0; len2--)
 		{
 			digit2 = s2[len2] - '0';
 			carry += result[len1 + len2 + 1] + (digit1 * digit2);
