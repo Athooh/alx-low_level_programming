@@ -19,25 +19,24 @@ char *string_nconcat(char *x1, char *x2, unsigned int i)
 	while (x2 && x2[len2])
 		len2++;
 	if (i < len2)
-		s = malloc(sizeof(char) * (len1 + i + 1));
+		x = malloc(sizeof(char) * (len1 + i + 1));
 	else
-		s = malloc(sizeof(char) * (len1 + len2 + 1));
+		x = malloc(sizeof(char) * (len1 + len2 + 1));
 
-	if (!s)
+	if (!x)
 		return (NULL);
-	
 	while (l < len1)
 	{
-		s[l] = s1[l];
+		x[l] = x1[l];
 		l++;
 	}
-	while (x < len2 && l < (len1 + x))
-		s[l++] = s2[j++];
+	while (i < len2 && l < (len1 + i))
+		x[l++] = x2[j++];
 
-	while (x >= len2 && l < (len1 + len2))
-		s[l++] = s2[j++];
+	while (i >= len2 && l < (len1 + len2))
+		x[l++] = x2[j++];
 
-	s[l] = '\0';
+	x[l] = '\0';
 
-	return (s)
+	return (x);
 }
