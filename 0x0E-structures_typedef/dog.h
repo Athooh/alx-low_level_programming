@@ -22,11 +22,11 @@ struct dog
 
 typedef struct dog dog_t;
 
-void init_dog(struct dog *d, char *name, float age, char *owner);
-void print_dog(struct dog *d);
+void init_dog(struct dog *x, char *name, float age, char *owner);
+void print_dog(struct dog *x);
 dog_t *new_dog(char *name, float age, char *owner);
-void free_dog(dog_t *d);
+void free_dog(dog_t *x);
 char *_strcpy(char *dest, char *src);
-init _strlen(char *s);
+int _strlen(char *x);
 
 #endif
