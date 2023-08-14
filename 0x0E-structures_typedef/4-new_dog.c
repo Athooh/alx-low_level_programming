@@ -2,10 +2,10 @@
 #include "dog.h"
 
 /**
- * _strlen - it return string length
+ * _strlen - it returns string length
  * @x: evaluated string
  *
- * Return: returns the string legnth
+ * Return: returns the string length
  */
 
 int _strlen(char *x)
@@ -27,7 +27,7 @@ int _strlen(char *x)
  * to buffer pointed to by dest
  * @src: the string copied
  * @dest: the pointer to the buffer in which we copy the string
- * Return: returns the pointer to dest
+ * Return: returns the pointer to the dest
  */
 
 char *_strcpy(char *dest, char *src)
@@ -51,7 +51,7 @@ char *_strcpy(char *dest, char *src)
 
 /**
  * new_dog - a new dog created
- * @name; dog name
+ * @name: dog name
  * @age: dog age
  * @owner: dog owner
  * Return: returns dog owner
