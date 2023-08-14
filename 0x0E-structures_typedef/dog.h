@@ -19,7 +19,6 @@ struct dog
 /**
  * dog_t - type definition for the struct dog
  */
-
 typedef struct dog dog_t;
 
 void init_dog(struct dog *x, char *name, float age, char *owner);
