@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * prime_name - it prints name using pointer to function
+ * print_name - it prints name using pointer to function
  * @name: added string
  * @x: the pointer to function
  * Return: nothing
