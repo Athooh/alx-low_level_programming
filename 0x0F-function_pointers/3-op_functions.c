@@ -27,11 +27,11 @@ int op_add(int a, int b)
 
 int op_sub(int a, int b)
 {
-        return (a - b);
+	return (a - b);
 }
 
 /**
- * op_sub - Returns product of two numbers.
+ * op_mul - Returns product of two numbers.
  * @a: first number.
  * @b: second number.
  * Return: returns product of a and b.
@@ -39,11 +39,11 @@ int op_sub(int a, int b)
 
 int op_mul(int a, int b)
 {
-        return (a * b);
+	return (a * b);
 }
 
 /**
- * op_sub - Returns division of two numbers.
+ * op_div - Returns division of two numbers.
  * @a: first number.
  * @b: second number.
  * Return: returns division of a and b.
@@ -51,11 +51,11 @@ int op_mul(int a, int b)
 
 int op_div(int a, int b)
 {
-        return (a / b);
+	return (a / b);
 }
 
 /**
- * op_sub - Returns remainder of division of two numbers.
+ * op_mod - Returns remainder of division of two numbers.
  * @a: first number.
  * @b: second number.
  * Return: returns remainder of division of a and b.
@@ -63,5 +63,5 @@ int op_div(int a, int b)
 
 int op_mod(int a, int b)
 {
-        return (a % b);
+	return (a % b);
 }
