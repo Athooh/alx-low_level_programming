@@ -23,7 +23,7 @@ void print_numbers(const char *separator, const unsigned int y, ...)
 		if (idx != (y - 1) && separator != NULL)
 			printf("%s", separator);
 	}
-	printf("\y");
+	printf("\n");
 
 	va_end(nums);
 }
