@@ -47,7 +47,7 @@ size_t looped_listint_len(const listint_t *head)
 		}
 
 		rabbit = rabbit->next;
-		cat = (hare->next)->next;
+		cat = (cat->next)->next;
 	}
 
 	return (0);
