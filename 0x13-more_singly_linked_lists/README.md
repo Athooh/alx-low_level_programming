@@ -1,1 +1,1 @@
-C - More singly linked lists DIR
+C - More singly linked lists
