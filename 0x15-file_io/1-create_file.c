@@ -4,7 +4,7 @@
  * create_file - It creates a file.
  * @filename: the pointer of the name of the file to create.
  * @text_content: the pointer to a string to write to the file.
- * Return: returns -1 If the function fails, 1 if succesfull
+ * Return: returns -1 If the function fails, 1 if successful
  */
 
 int create_file(const char *filename, char *text_content)
@@ -29,5 +29,5 @@ int create_file(const char *filename, char *text_content)
 	close(ft);
 
 	return (1);
-	
 }
+
