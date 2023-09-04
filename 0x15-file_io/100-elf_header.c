@@ -317,3 +317,4 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	close_elf(p);
 	return (0);
 }
+
