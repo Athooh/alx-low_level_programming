@@ -7,20 +7,23 @@
  * Return: The converted unsigned integer, or 0 if @b is invalid or NULL.
  */
 
-unsigned int binary_to_uint(const char *b)
-{
-	int x;
-	unsigned int decimal_value = 0;
+unsigned int total, power;
+	int len;
 
-	if (!b)
+	if (b == NULL)
 		return (0);
 
-	for (x = 0; b[x]; x++)
+	for (len = 0; b[len]; len++)
 	{
-		if (b[x] < '0' || b[x] > '1')
+		if (b[len] != '0' && b[len] != '1')
 			return (0);
-		decimal_value = 2 * decimal_value + (b[x] - '0');
 	}
 
-	return (decimal_value);
+	for (power = 1, total = 0, len--; len >= 0; len--, power *= 2)
+	{
+		if (b[len] == '1')
+			total += power;
+	}
+
+	return (total);
 }
